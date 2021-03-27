@@ -55,6 +55,7 @@ _wiringpi = Extension(
     include_dirs=['WiringPi/wiringPi','WiringPi/devLib'],
     sources=sources,
     swig_opts=['-threads'],
+    define_macros=[('CONFIG_ORANGEPI_3', '1'), ('CONFIG_ORANGEPI', '1')],
     extra_link_args=['-lcrypt', '-lrt']
 )
 

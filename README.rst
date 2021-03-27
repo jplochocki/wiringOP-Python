@@ -1,6 +1,10 @@
 Note
 ~~~~
 
+**jplochocki**: changes for Orange PI 3 compilation only
+
+
+
 This is an unofficial port of Gordon's wiringPi library. Please do not
 email Gordon if you have issues, he will not be able to help.
 

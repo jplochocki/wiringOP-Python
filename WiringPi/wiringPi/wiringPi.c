@@ -77,6 +77,8 @@
 #include "wiringPi.h"
 #include "../version.h"
 
+#define CONFIG_ORANGEPI
+
 #ifdef CONFIG_ORANGEPI
 #include "OrangePi.h"
 #endif
